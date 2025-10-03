@@ -1,0 +1,10 @@
+{
+  "id": "to-word",
+  "name": "Export to Word",
+  "version": "1.3.1",
+  "minAppVersion": "0.15.0",
+  "description": "Export markdown files to Word (docx) with text styling and fonts. Saves directly to your vault.",
+  "author": "Jan Sandström",
+  "authorUrl": "https://github.com/PixeroJan",
+  "isDesktopOnly": false
+}
