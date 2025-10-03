@@ -47,15 +47,7 @@ Export your Obsidian markdown files to Microsoft Word (docx) format with full te
 
 The exported Word document will be saved in your vault according to your output location settings.
 
-## Example Files
-
-The `examples/` folder contains sample markdown files demonstrating various features:
-
-- `FULL_MARKDOWN_SAMPLE.md` - Comprehensive test of all supported markdown features
-- `TEST_ISSUES.md` - Simple test file for debugging
-- `SAMPLE.md` - Basic example
-
-You can use these to test the plugin and see how different markdown elements are converted to Word format.
+## 
 
 ## Settings
 
