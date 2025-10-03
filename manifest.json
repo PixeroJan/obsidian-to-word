@@ -6,5 +6,5 @@
   "description": "Export markdown files to Word (docx) with text styling and fonts. Saves directly to your vault.",
   "author": "Jan Sandström",
   "authorUrl": "https://github.com/PixeroJan",
-  "isDesktopOnly": false
+  "isDesktopOnly": true
 }

@@ -50,6 +50,7 @@ The exported Word document will be saved in your vault according to your output 
 ## Example Files
 
 The `examples/` folder contains sample markdown files demonstrating various features:
+
 - `FULL_MARKDOWN_SAMPLE.md` - Comprehensive test of all supported markdown features
 - `TEST_ISSUES.md` - Simple test file for debugging
 - `SAMPLE.md` - Basic example
@@ -90,6 +91,7 @@ Access plugin settings via Settings → Export to Word:
 ## Supported Markdown Features
 
 ### Text Formatting
+
 - ✅ **Bold** (`**text**`)
 - ✅ *Italic* (`*text*`)
 - ✅ ***Bold Italic*** (`***text***`)
@@ -100,6 +102,7 @@ Access plugin settings via Settings → Export to Word:
 - ✅ Superscript and Subscript (via HTML `<sup>`, `<sub>`)
 
 ### Structure
+
 - ✅ Headings (H1-H6) with proper styling
 - ✅ Paragraphs with line spacing
 - ✅ Horizontal rules (`---`, `***`, `___`)
@@ -107,30 +110,35 @@ Access plugin settings via Settings → Export to Word:
 - ✅ Blockquotes (with nesting support)
 
 ### Lists
+
 - ✅ Ordered lists (numbered)
 - ✅ Unordered lists (bullets)
 - ✅ Nested lists (up to 3 levels)
 - ✅ Task lists (`- [ ]` and `- [x]`) - rendered as ☐ and ☑
 
 ### Code
+
 - ✅ Inline code with monospace font and background
 - ✅ Fenced code blocks with language support
 - ✅ Syntax highlighting (colors preserved from highlight.js)
 - ✅ Bold Courier New font for all code
 
 ### Tables
+
 - ✅ Standard markdown tables
 - ✅ Column alignment (left, center, right)
 - ✅ Header row styling
 - ✅ Fixed column widths
 
 ### Links & References
+
 - ✅ Inline links (`[text](url)`)
 - ✅ Titled links (`[text](url "title")`)
 - ✅ Clickable hyperlinks in Word
 - ✅ Footnotes (`[^1]`) with superscript references
 
 ### Images
+
 - ✅ Standard markdown images (`![alt](url)`)
 - ✅ Obsidian embedded images (`![[image.png]]`)
 - ✅ Image sizing (`![alt](url|300)` or `![[image.png|300]]`)
@@ -138,6 +146,7 @@ Access plugin settings via Settings → Export to Word:
 - ✅ Local vault images
 
 ### Advanced
+
 - ✅ Emojis (`:smile:` → 😊)
 - ✅ Raw HTML formatting (`<b>`, `<i>`, `<code>`, etc.)
 - ✅ Collapsible sections (`<details>`) - rendered expanded with visual indicators
@@ -145,6 +154,7 @@ Access plugin settings via Settings → Export to Word:
 - ✅ Nested blockquotes
 
 ### Limitations
+
 - ⚠️ Task list checkboxes are static (not interactive in Word)
 - ⚠️ Collapsible sections are always expanded (Word doesn't support interactive collapse)
 - ⚠️ Some horizontal rule variants may not render in all contexts
@@ -156,10 +166,9 @@ See [WORD_LIMITATIONS.md](WORD_LIMITATIONS.md) for detailed explanations and wor
 - ✅ **Windows**: Fully supported - saves to vault
 - ✅ **macOS**: Fully supported - saves to vault
 - ✅ **Linux**: Fully supported - saves to vault
-- ✅ **iOS/iPadOS**: Fully supported - saves to vault
-- ✅ **Android**: Fully supported - saves to vault
+- ✅ **iOS/iPadOS**: Not supported
 
-All platforms save the exported Word document directly to your vault according to your output location settings. No browser downloads!
+All supported platforms save the exported Word document directly to your vault according to your output location settings. No browser downloads!
 
 ## Development
 
